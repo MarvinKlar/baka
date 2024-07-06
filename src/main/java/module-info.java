@@ -4,6 +4,9 @@ module link.biosmarcel.baka {
     requires org.apache.commons.csv;
     requires org.eclipse.store.storage.embedded.configuration;
     requires org.jspecify;
+    requires org.cryptomator.cryptolib;
+    requires org.cryptomator.cryptofs;
+    requires jdk.crypto.ec;
 
     exports link.biosmarcel.baka;
     exports link.biosmarcel.baka.bankimport;
